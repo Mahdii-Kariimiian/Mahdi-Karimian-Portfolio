@@ -7,12 +7,16 @@
 
 /* App component */
 .app {
+	display: flex;
 	margin: 10rem;
+}
+
+.hero {
+	margin-left: 45%;
 }
 
 /* Header Component */
 .Header {
-	height: 100vh;
 	position: relative;
 }
 
@@ -167,4 +171,35 @@
 .contact__title {
 	margin-top: 5rem;
 	margin-bottom: 3rem;
+}
+
+@media (max-width: 1150px) {
+	.app {
+		display: block;
+		margin: 5rem 3rem;
+	}
+
+	.Header__specs {
+		position: relative;
+	}
+
+	.hero {
+		margin-left: initial;
+	}
+
+	.projects-section {
+		display: block;
+	}
+
+	.main {
+		width: initial;
+	}
+
+	.contact {
+		text-align: center;
+	}
+
+	.contacts {
+		justify-content: center;
+	}
 }

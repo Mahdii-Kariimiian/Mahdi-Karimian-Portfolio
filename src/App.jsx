@@ -19,15 +19,10 @@ function App() {
 		);
 	});
 	return (
-		<div style={{ display: 'flex' }} className="app">
-			<section className="container inter-font">
-				<Header />
-			</section>
-			<section
-				style={{
-					marginLeft: '45%',
-				}}
-			>
+		<div className="app">
+			<Header />
+
+			<section className="hero">
 				<Main />
 				<h2 id="projects" className="projects-title">
 					My Mini Projects
