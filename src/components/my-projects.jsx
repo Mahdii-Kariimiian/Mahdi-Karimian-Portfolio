@@ -4,7 +4,7 @@ const myProjects = [
 	{
 		id: nanoid(),
 		name: 'Tip Calculator',
-		src: 'tip Calculator.png',
+		src: 'tip calculator.png',
 		href: 'https://tip-calculator-app-main-sigma.vercel.app/',
 		githubrepo:
 			'https://github.com/Mahdii-Kariimiian/tip-calculator-app-main?tab=readme-ov-file',
@@ -52,17 +52,17 @@ const myProjects = [
 	{
 		id: nanoid(),
 		name: 'Interactive Pricing Component',
-		src: 'interactive pricing component.png',
-		href: '',
-		githubrepo: '',
+		src: 'Interactive pricing.png',
+		href: 'https://interactive-pricing-component-kappa-seven.vercel.app/',
+		githubrepo:
+			'https://github.com/Mahdii-Kariimiian/Interactive-pricing-component',
 	},
 	{
 		id: nanoid(),
 		name: 'QR code Generator',
 		src: 'QRcode generator.png',
-		href: 'https://interactive-pricing-component-kappa-seven.vercel.app/',
-		githubrepo:
-			'https://github.com/Mahdii-Kariimiian/Interactive-pricing-component',
+		href: 'https://qr-code-generator-omega-seven.vercel.app/',
+		githubrepo: 'https://github.com/Mahdii-Kariimiian/QR-code-generator',
 	},
 ];
 

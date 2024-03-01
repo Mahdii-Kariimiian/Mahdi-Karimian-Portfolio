@@ -6,7 +6,7 @@ function Projects(props) {
 			<div>
 				<img
 					className="projects__img"
-					src={`../../public/img/screenshots/${props.src}`}
+					src={`../../img/screenshots/${props.src}`}
 					alt={props.name}
 				/>
 				<h3 className="projects__name">{props.name}</h3>
