@@ -1,0 +1,170 @@
+/* custom properties  */
+
+:root {
+	--font-color: #e2e8f0;
+	--hover-color: rgba(22, 83, 132, 0.27);
+}
+
+/* App component */
+.app {
+	margin: 10rem;
+}
+
+/* Header Component */
+.Header {
+	height: 100vh;
+	position: relative;
+}
+
+.Header__specs {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	min-height: 500px;
+	position: fixed;
+}
+
+.Header__specs__title {
+	white-space: nowrap;
+	font-size: 3rem;
+	font-weight: 800;
+}
+
+.Header__specs__job-title {
+	white-space: nowrap;
+	font-size: 1.5rem;
+}
+
+/* NavItems Component */
+
+.navigation {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	font-size: 1.25rem;
+	gap: 1rem;
+}
+
+.line {
+	background-color: var(--hover-color);
+	width: 25px;
+	height: 5px;
+	transform: translateX(-40px) translateY(35px);
+}
+
+.navigation__menu > a {
+	transition: color 0.25s ease;
+}
+
+.navigation__menu > a:hover {
+	color: var(--hover-color);
+}
+
+/* SocailMedia Component */
+
+.social-media {
+	font-size: 1.5rem;
+	display: flex;
+	gap: 2rem;
+	padding-left: 0;
+}
+
+.fa-brands,
+.fa-solid {
+	color: #e2e8f0;
+	font-size: 2.5rem;
+	transition: color 0.25s ease;
+}
+
+.fa-brands:hover,
+.fa-solid:hover {
+	color: var(--hover-color);
+}
+
+/* Main Component */
+
+.main {
+	width: 700px;
+	font-size: 1.125rem;
+	font-weight: 400;
+	line-height: 2rem;
+	margin-top: 2rem;
+}
+
+.main__cover-letter > * {
+	margin-bottom: 1rem;
+}
+
+/* Projects Component */
+.projects-section {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 3rem;
+	font-size: 1.125rem;
+	font-weight: 300;
+}
+
+.projects {
+	display: flex;
+	padding: 2rem;
+	flex-direction: column;
+	align-items: center;
+	width: 300px;
+
+	border-radius: 10px;
+	transition: all 0.25s ease;
+}
+
+.projects-title {
+	margin-top: 10rem;
+	margin-bottom: 3rem;
+	font-size: 1.75rem;
+}
+
+.projects:hover {
+	outline: 2px solid var(--hover-color);
+	background-color: var(--hover-color);
+}
+
+.projects__img {
+	margin-bottom: 1rem;
+	max-width: 100%;
+}
+
+.projects__buttons {
+	margin-top: 1rem;
+	display: flex;
+	gap: 1rem;
+	justify-content: left;
+}
+
+.projects__button {
+	color: #e2e8f0;
+	font-size: 0.95rem;
+	background: var(--hover-color);
+	border: 1px solid rgb(17, 32, 68);
+	padding: 0.2rem 0.5rem;
+	border-radius: 10px;
+}
+
+.projects__button {
+	cursor: pointer;
+}
+
+/* Contact component */
+
+.contact {
+	font-size: 1.5rem;
+}
+
+.contacts {
+	padding-left: 0;
+	display: flex;
+	gap: 2.5rem;
+	font-size: 2rem;
+}
+
+.contact__title {
+	margin-top: 5rem;
+	margin-bottom: 3rem;
+}
