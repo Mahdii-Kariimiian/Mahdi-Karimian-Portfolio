@@ -13,6 +13,7 @@ function SocialMedia() {
 					<i className="fa-brands fa-github"></i>
 				</a>
 			</li>
+
 			<li aria-label="linkedin">
 				<a
 					title="Linkedin"
@@ -23,6 +24,7 @@ function SocialMedia() {
 					<i className="fa-brands fa-linkedin social-media__icon"></i>
 				</a>
 			</li>
+
 			<li>
 				<a
 					title="My CV"

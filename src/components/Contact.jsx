@@ -13,11 +13,13 @@ function Contact() {
 						<i className="fa-solid fa-envelope"></i>
 					</a>
 				</li>
+
 				<li className="contact-icon">
 					<a target="_blank" href="https://t.me/mahdiikariimiian/">
 						<i className="fa-brands fa-telegram"></i>
 					</a>
 				</li>
+
 				<li className="contact-icon">
 					<a target="_blank" href="https://wa.me/qr/KCJK5QOXSGEHC1">
 						<i className="fa-brands fa-whatsapp"></i>

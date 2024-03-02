@@ -10,6 +10,7 @@ function Projects(props) {
 					alt={props.name}
 				/>
 				<h3 className="projects__name">{props.name}</h3>
+
 				<div className="projects__buttons">
 					<a href={props.href}>
 						<button className="projects__button">Open Page</button>

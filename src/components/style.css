@@ -8,7 +8,7 @@
 /* App component */
 .app {
 	display: flex;
-	margin: 10rem;
+	margin: 10rem 10rem 1.25rem 10rem;
 }
 
 .hero {
@@ -24,7 +24,7 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	min-height: 500px;
+	gap: 3rem;
 	position: fixed;
 }
 
@@ -88,7 +88,7 @@
 /* Main Component */
 
 .main {
-	width: 700px;
+	max-width: 700px;
 	font-size: 1.125rem;
 	font-weight: 400;
 	line-height: 2rem;
@@ -113,7 +113,7 @@
 	padding: 2rem;
 	flex-direction: column;
 	align-items: center;
-	width: 300px;
+	min-width: 300px;
 
 	border-radius: 10px;
 	transition: all 0.25s ease;
@@ -174,6 +174,33 @@
 }
 
 @media (max-width: 1150px) {
+	html {
+		font-size: 14px;
+	}
+
+	.hero {
+		max-width: 500px;
+	}
+
+	.app {
+		display: flex;
+		margin: 5rem 3rem;
+	}
+
+	.projects-section {
+		grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+	}
+
+	.line {
+		transform: translateX(-40px) translateY(32px);
+	}
+}
+
+@media (max-width: 800px) {
+	html {
+		font-size: 12px;
+	}
+
 	.app {
 		display: block;
 		margin: 5rem 3rem;
@@ -187,10 +214,6 @@
 		margin-left: initial;
 	}
 
-	.projects-section {
-		display: block;
-	}
-
 	.main {
 		width: initial;
 	}
@@ -201,5 +224,9 @@
 
 	.contacts {
 		justify-content: center;
+	}
+
+	.line {
+		transform: translateX(-40px) translateY(29px);
 	}
 }

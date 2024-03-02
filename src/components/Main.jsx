@@ -17,9 +17,9 @@ function Main() {
 					type of creativity that has a common universal language,
 					that is technology world with the language of programming.
 					In the last few months, I have been diligently learning the
-					fundamentals of front-end. So far I've got a handle on HTML,
-					CSS, and JavaScript, and now I'm diving into React and its
-					huge ecosystem.
+					fundamentals of front end development. So far I've got a
+					handle on HTML, CSS, and JavaScript, and now I'm diving into
+					React and its vast ecosystem.
 				</p>
 				<p>
 					It's hard to put into words how much I have been under the

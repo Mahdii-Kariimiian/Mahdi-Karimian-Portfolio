@@ -1,4 +1,3 @@
-import './App.css';
 import './components/style.css';
 import Header from './components/Header.jsx';
 import Projects from './components/Projects.jsx';
@@ -7,6 +6,7 @@ import myProjects from './components/my-projects.jsx';
 import Contact from './components/Contact.jsx';
 
 function App() {
+	// Show projects on page
 	const renderProjects = myProjects.map((project) => {
 		return (
 			<Projects
@@ -18,6 +18,7 @@ function App() {
 			/>
 		);
 	});
+
 	return (
 		<div className="app">
 			<Header />
