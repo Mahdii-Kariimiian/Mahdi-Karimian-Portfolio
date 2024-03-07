@@ -6,7 +6,7 @@ const myProjects = [
 		name: 'React Note App',
 		src: 'Screenshot 1 Note App',
 		href: '//beamish-mandazi-813ee0.netlify.app',
-		githubrepo: 'https://github.com/Mahdii-Kariimiian/your-expense-app',
+		githubrepo: 'https://github.com/Mahdii-Kariimiian/Note-Application',
 	},
 	{
 		id: nanoid(),
