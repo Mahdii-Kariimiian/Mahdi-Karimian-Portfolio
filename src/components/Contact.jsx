@@ -9,19 +9,27 @@ function Contact() {
 			</h3>
 			<ul className="contacts">
 				<li className="contact-icon">
-					<a href="mailto:mahdii.kariimiian@gmail.com">
+					<a title="E-mail" href="mailto:mahdii.kariimiian@gmail.com">
 						<i className="fa-solid fa-envelope"></i>
 					</a>
 				</li>
 
 				<li className="contact-icon">
-					<a target="_blank" href="https://t.me/mahdiikariimiian/">
+					<a
+						title="Telegram"
+						target="_blank"
+						href="https://t.me/mahdiikariimiian/"
+					>
 						<i className="fa-brands fa-telegram"></i>
 					</a>
 				</li>
 
 				<li className="contact-icon">
-					<a target="_blank" href="https://wa.me/qr/KCJK5QOXSGEHC1">
+					<a
+						title="Whatsapp"
+						target="_blank"
+						href="https://wa.me/qr/KCJK5QOXSGEHC1"
+					>
 						<i className="fa-brands fa-whatsapp"></i>
 					</a>
 				</li>
