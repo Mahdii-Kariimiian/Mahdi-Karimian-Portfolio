@@ -42,14 +42,10 @@ body {
 	font-style: normal;
 	font-variation-settings: 'slnt' 0;
 	background: rgb(17, 32, 68);
-	background: linear-gradient(
-		310deg,
-		rgba(17, 32, 68, 1) 0%,
-		rgba(15, 23, 42, 1) 100%
-	);
+	background: linear-gradient(310deg, rgba(17, 32, 68, 1) 0%, #0f1012 100%);
 	line-height: 1.5;
 	min-height: 100vh;
-	color: #e2e8f0;
+	color: #f7f7f9;
 }
 
 /* make images easier to work with */

@@ -3,10 +3,24 @@ import { nanoid } from 'nanoid';
 const myProjects = [
 	{
 		id: nanoid(),
-		name: 'React Note App',
-		src: 'Screenshot 1 Note App',
-		href: '//beamish-mandazi-813ee0.netlify.app',
+		name: 'REST Countries API with Color Theme Switcher',
+		src: 'countries screenshot 1.png',
+		href: 'https://whereintheworldd.netlify.app/',
+		githubrepo: 'https://github.com/Mahdii-Kariimiian/rest-countries-api-with-color-theme-switcher-master',
+	},
+	{
+		id: nanoid(),
+		name: 'Pickture React App',
+		src: 'picktuer react app.png',
+		href: 'https://luminous-horse-6bc308.netlify.app/',
 		githubrepo: 'https://github.com/Mahdii-Kariimiian/Note-Application',
+	},
+	{
+		id: nanoid(),
+		name: 'React Note App',
+		src: 'Screenshot 1 Note App.png',
+		href: 'https://beamish-mandazi-813ee0.netlify.app',
+		githubrepo: 'https://github.com/Mahdii-Kariimiian/snapshot-React',
 	},
 	{
 		id: nanoid(),

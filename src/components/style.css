@@ -2,7 +2,8 @@
 
 :root {
 	--font-color: #e2e8f0;
-	--hover-color: rgba(22, 83, 132, 0.27);
+	--hover-color: #6f92da;
+	--background-color: rgba(15, 23, 42, 1);
 }
 
 /* App component */
@@ -57,7 +58,8 @@
 }
 
 .navigation__menu > a {
-	transition: color 0.25s ease;
+	color: var(--font-color);
+	transition: color 0.25s ease-in;
 }
 
 .navigation__menu > a:hover {
@@ -96,7 +98,16 @@
 }
 
 .main__cover-letter > * {
-	margin-bottom: 1rem;
+	margin-bottom: 1.5rem;
+}
+
+.main-paragraph {
+	transition: transform 0.25s ease;
+}
+
+.main-paragraph:hover {
+	transform: scale(1.1);
+	cursor: default;
 }
 
 /* Projects Component */
@@ -114,7 +125,7 @@
 	flex-direction: column;
 	align-items: center;
 	min-width: 300px;
-
+	outline: 2px solid transparent;
 	border-radius: 10px;
 	transition: all 0.25s ease;
 }
@@ -127,7 +138,7 @@
 
 .projects:hover {
 	outline: 2px solid var(--hover-color);
-	background-color: var(--hover-color);
+	/* background-color: var(--hover-color); */
 }
 
 .projects__img {
@@ -145,7 +156,7 @@
 .projects__button {
 	color: #e2e8f0;
 	font-size: 0.95rem;
-	background: var(--hover-color);
+	background: var(--background-color);
 	border: 1px solid rgb(17, 32, 68);
 	padding: 0.2rem 0.5rem;
 	border-radius: 10px;

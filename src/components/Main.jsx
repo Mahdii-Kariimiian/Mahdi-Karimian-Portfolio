@@ -5,14 +5,14 @@ function Main() {
 	return (
 		<div className="main">
 			<div className="main__cover-letter">
-				<p>
+				<p className="main-paragraph">
 					My life has always been associated with creating any kind of
 					contents. I have experienced various careers such as
 					writing, journalism, content creation and podcasting, and I
 					achieved great success in all these jobs in my country.
 				</p>
 
-				<p>
+				<p className="main-paragraph">
 					After immigrating to Europe, I decided to focus on another
 					type of creativity that has a common universal language,
 					that is technology world with the language of programming.
@@ -21,7 +21,7 @@ function Main() {
 					handle on HTML, CSS, and JavaScript, and now I'm diving into
 					React and its vast ecosystem.
 				</p>
-				<p>
+				<p className="main-paragraph">
 					It's hard to put into words how much I have been under the
 					influence of the indescribable realm of programming. Every
 					day I'm filled with learning the amazing capabilities of
