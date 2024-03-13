@@ -30,7 +30,7 @@ function SocialMedia() {
 					title="My CV"
 					className="social-media__icon"
 					target="_blank"
-					href="../public/file/Mahdi-karimian-CV.pdf"
+					href="../public/file/Mahdi-Karimian-CV.pdf"
 				>
 					<i className="fa-solid fa-file"></i>
 				</a>
