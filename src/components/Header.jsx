@@ -10,7 +10,7 @@ function Header() {
 				<div>
 					<h1 className="Header__specs__title">Mahdi Karimian</h1>
 					<h3 className="Header__specs__job-title">
-						Front-End developer to be!
+						Front-End developer 
 					</h3>
 				</div>
 				<NavItems />

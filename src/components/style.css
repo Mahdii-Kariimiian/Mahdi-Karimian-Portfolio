@@ -2,7 +2,7 @@
 
 :root {
 	--font-color: #e2e8f0;
-	--hover-color: #6f92da;
+	--hover-color: #104b83;
 	--background-color: rgba(15, 23, 42, 1);
 }
 
@@ -30,14 +30,18 @@
 }
 
 .Header__specs__title {
+	letter-spacing: .2rem;
 	white-space: nowrap;
 	font-size: 3rem;
 	font-weight: 800;
+	cursor: default;
 }
 
 .Header__specs__job-title {
+	letter-spacing: .2rem;
 	white-space: nowrap;
 	font-size: 1.5rem;
+	cursor: default;
 }
 
 /* NavItems Component */
@@ -66,7 +70,7 @@
 	color: var(--hover-color);
 }
 
-/* SocailMedia Component */
+/* Socail Media Component */
 
 .social-media {
 	font-size: 1.5rem;
@@ -121,8 +125,8 @@
 
 .projects {
 	display: flex;
-	padding: 2rem;
 	flex-direction: column;
+	padding: 2rem;
 	align-items: center;
 	min-width: 300px;
 	outline: 2px solid transparent;
@@ -138,7 +142,6 @@
 
 .projects:hover {
 	outline: 2px solid var(--hover-color);
-	/* background-color: var(--hover-color); */
 }
 
 .projects__img {
@@ -147,10 +150,10 @@
 }
 
 .projects__buttons {
-	margin-top: 1rem;
 	display: flex;
-	gap: 1rem;
 	justify-content: left;
+	gap: 1rem;
+	margin-top: 1rem;
 }
 
 .projects__button {
