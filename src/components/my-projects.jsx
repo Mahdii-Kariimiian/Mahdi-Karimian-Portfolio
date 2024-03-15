@@ -3,6 +3,13 @@ import { nanoid } from 'nanoid';
 const myProjects = [
 	{
 		id: nanoid(),
+		name: 'Event Reminder',
+		src: 'event reminder screenshot 1.png',
+		href: 'https://eventreminder.netlify.app/',
+		githubrepo: 'https://github.com/Mahdii-Kariimiian/Event-Reminder',
+	},
+	{
+		id: nanoid(),
 		name: 'REST Countries API with Color Theme Switcher',
 		src: 'countries screenshot 1.png',
 		href: 'https://whereintheworldd.netlify.app/',
