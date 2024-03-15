@@ -3,7 +3,7 @@ import { nanoid } from 'nanoid';
 const myProjects = [
 	{
 		id: nanoid(),
-		name: 'Event Reminder',
+		name: 'React Event Reminder App',
 		src: 'event reminder screenshot 1.png',
 		href: 'https://eventreminder.netlify.app/',
 		githubrepo: 'https://github.com/Mahdii-Kariimiian/Event-Reminder',
