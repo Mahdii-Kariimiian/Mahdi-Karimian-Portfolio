@@ -1,9 +1,95 @@
+/*                      */
+/*        Reset         */
+/*                      */
+
+/* Box sizing */
+
+*,
+*::after,
+*:before {
+	box-sizing: border-box;
+}
+
+/* Reset margins */
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+figure,
+picture {
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:visited {
+	color: #e2e8f0;
+}
+
+/* Set up the body */
+
+body {
+	font-family: 'Inter', sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 600;
+	font-style: normal;
+	font-variation-settings: 'slnt' 0;
+	background: var(--background-color);
+	line-height: 1.5;
+	min-height: 100vh;
+	color: var(--font-color);
+}
+
+/* make images easier to work with */
+
+img,
+picture {
+	max-width: 100%;
+	display: block;
+}
+
+/* make form elements easier to work with  */
+
+input,
+button,
+textarea,
+select {
+	font: inherit;
+}
+
+/* remove animation for people who've turned them off */
+
+@media (prefers-reduced-motion: reduce) {
+	*,
+	*::before,
+	*::after {
+		animation-duration: 0.01 !important;
+		animation-iteration-count: 1 !important;
+		transition-duration: 0.01 !important;
+		scroll-behavior: auto !important;
+	}
+}
+
+ul {
+	list-style-type: none;
+}
+
+
 /* custom properties  */
 
 :root {
-	--font-color: #e2e8f0;
-	--hover-color: #104b83;
-	--background-color: rgba(15, 23, 42, 1);
+    --primary-color: #0f1012; 
+    --secondary-color: #e67e22; 
+    --font-color: #e2e8f0; 
+    --hover-color: #c55f22; 
+    --background-color: rgba(15, 23, 42, 1);
 }
 
 /* App component */
@@ -81,7 +167,7 @@
 
 .fa-brands,
 .fa-solid {
-	color: #e2e8f0;
+	color: var(--font-color);
 	font-size: 2.5rem;
 	transition: color 0.25s ease;
 }
@@ -124,10 +210,11 @@
 }
 
 .projects {
+	overflow: hidden;
 	display: flex;
 	flex-direction: column;
-	padding: 2rem;
 	align-items: center;
+	text-align: center;
 	min-width: 300px;
 	outline: 2px solid transparent;
 	border-radius: 10px;
@@ -149,18 +236,27 @@
 	max-width: 100%;
 }
 
+.projects__info {
+	padding: 1rem;
+}
+
 .projects__buttons {
+	width:100%;
 	display: flex;
-	justify-content: left;
-	gap: 1rem;
+	justify-content: center;
+	gap: 2rem;
 	margin-top: 1rem;
+}
+
+.projects__button:hover {
+	outline: 2px solid var(--hover-color);
 }
 
 .projects__button {
 	color: #e2e8f0;
 	font-size: 0.95rem;
 	background: var(--background-color);
-	border: 1px solid rgb(17, 32, 68);
+	border: 1px solid var(--primary-color);
 	padding: 0.2rem 0.5rem;
 	border-radius: 10px;
 }
@@ -193,7 +289,8 @@
 	}
 
 	.hero {
-		max-width: 500px;
+		max-width: 400px;
+		margin-left: 50%;
 	}
 
 	.app {

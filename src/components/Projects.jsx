@@ -9,18 +9,18 @@ function Projects(props) {
 					src={`../../img/screenshots/${props.src}`}
 					alt={props.name}
 				/>
-				<h3 className="projects__name">{props.name}</h3>
-
-				<div className="projects__buttons">
-					<a href={props.href}>
-						<button className="projects__button">Open Page</button>
-					</a>
-
-					<a href={props.githubrepo}>
-						<button className="projects__button">
-							Github Repo
-						</button>
-					</a>
+				<div className='projects__info'>
+					<h3 className="projects__name">{props.name}</h3>
+					<div className="projects__buttons">
+						<a href={props.href}>
+							<button className="projects__button">Open Page</button>
+						</a>
+						<a href={props.githubrepo}>
+							<button className="projects__button">
+								Github Repo
+							</button>
+						</a>
+					</div>
 				</div>
 			</div>
 		</div>
