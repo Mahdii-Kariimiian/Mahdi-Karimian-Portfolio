@@ -3,10 +3,17 @@ import { nanoid } from 'nanoid';
 const myProjects = [
 	{
 		id: nanoid(),
-		name: 'React Event Reminder App',
+		name: 'Event Reminder App / React',
 		src: 'event reminder screenshot 1.png',
 		href: 'https://eventreminder.netlify.app/',
 		githubrepo: 'https://github.com/Mahdii-Kariimiian/Event-Reminder',
+	},
+	{
+		id: nanoid(),
+		name: 'Beach Vacation Booking Website / React and Tailwind',
+		src: 'Tailwind screenshot.png',
+		href: 'https://weekawaytailwind.netlify.app/',
+		githubrepo: 'https://github.com/Mahdii-Kariimiian/Beach-Vacation-Booking-Website/',
 	},
 	{
 		id: nanoid(),
@@ -17,14 +24,14 @@ const myProjects = [
 	},
 	{
 		id: nanoid(),
-		name: 'Pickture React App',
+		name: 'Pickture App / React',
 		src: 'picktuer react app.png',
 		href: 'https://luminous-horse-6bc308.netlify.app/',
 		githubrepo: 'https://github.com/Mahdii-Kariimiian/Note-Application',
 	},
 	{
 		id: nanoid(),
-		name: 'React Note App',
+		name: 'Note App / React',
 		src: 'Screenshot 1 Note App.png',
 		href: 'https://beamish-mandazi-813ee0.netlify.app',
 		githubrepo: 'https://github.com/Mahdii-Kariimiian/snapshot-React',
