@@ -10,6 +10,13 @@ const myProjects = [
 	},
 	{
 		id: nanoid(),
+		name: 'Expenses App / React and Tailwind',
+		src: 'expenses react screen-shot 1.png',
+		href: 'https://yourexpenses.netlify.app//',
+		githubrepo: 'https://github.com/Mahdii-Kariimiian/Expenses-React/',
+	},
+	{
+		id: nanoid(),
 		name: 'Beach Vacation Booking Website / React and Tailwind',
 		src: 'Tailwind screenshot.png',
 		href: 'https://weekawaytailwind.netlify.app/',
