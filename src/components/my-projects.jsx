@@ -3,6 +3,13 @@ import { nanoid } from 'nanoid';
 const myProjects = [
 	{
 		id: nanoid(),
+		name: 'E-commerce site / React and Tailwind',
+		src: 'e-commerce screenshot.png',
+		href: 'https://codecart.netlify.app/',
+		githubrepo: 'https://github.com/Mahdii-Kariimiian/E-commerce-react',
+	},
+	{
+		id: nanoid(),
 		name: 'Event Reminder App / React',
 		src: 'event reminder screenshot 1.png',
 		href: 'https://eventreminder.netlify.app/',
