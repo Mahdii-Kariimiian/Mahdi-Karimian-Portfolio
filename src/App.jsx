@@ -46,7 +46,10 @@ function App() {
     });
 
     return (
-        <div id="about" className="scroll-smooth p-10 md:px-15 py-[60px] bg-gradient-to-br from-sky-950 to-black  text-slate-200">
+        <div
+            id="about"
+            className="scroll-smooth p-10 md:px-15 py-[60px] bg-gradient-to-br from-sky-950 to-black  text-slate-200"
+        >
             <section className="lg:flex gap-10 ">
                 <div className=" lg:fixed">
                     <Header />
@@ -80,7 +83,7 @@ function App() {
                         </button>
                         {numbers.map((number, index) => {
                             return (
-                                <li
+                                <button
                                     onClick={(e) => {
                                         e.preventDefault();
                                         changeCurrentPage(index + 1);
@@ -92,8 +95,13 @@ function App() {
                                     } `}
                                     key={index}
                                 >
-                                    <a className="text-xl font-bold" href="#projects">{number}</a>{" "}
-                                </li>
+                                    <a
+                                        className="text-xl font-bold"
+                                        href="#projects"
+                                    >
+                                        {number}
+                                    </a>{" "}
+                                </button>
                             );
                         })}
                         <button
