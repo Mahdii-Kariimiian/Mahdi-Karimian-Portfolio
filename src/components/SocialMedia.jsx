@@ -7,7 +7,7 @@ function SocialMedia() {
                     target="_blank"
                     href="https://github.com/Mahdii-Kariimiian"
                 >
-                    <i className="fa-brands fa-github hover:text-amber-700 transition-b"></i>
+                    <i className="fa-brands fa-github hover:text-amber-600 transition-b"></i>
                 </a>
             </li>
 
@@ -17,7 +17,7 @@ function SocialMedia() {
                     target="_blank"
                     href="https://www.linkedin.com/in/mahdi-karimian-116643273/"
                 >
-                    <i className="hover:text-amber-700 transition fa-brands fa-linkedin"></i>
+                    <i className="hover:text-amber-600 transition fa-brands fa-linkedin"></i>
                 </a>
             </li>
 
@@ -27,7 +27,7 @@ function SocialMedia() {
                     target="_blank"
                     href="https://drive.google.com/file/d/1i4lRuDld89dajyQoCZxNikSaGM5wY7RZ/view?usp=drive_link"
                 >
-                    <i className="hover:text-amber-700 transition fa-solid fa-file"></i>
+                    <i className="hover:text-amber-600 transition fa-solid fa-file"></i>
                 </a>
             </li>
         </ul>

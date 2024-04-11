@@ -46,12 +46,12 @@ function App() {
     });
 
     return (
-        <div className="p-10 md:px-15 py-[60px] bg-gradient-to-br from-sky-900 to-black  text-slate-200">
+        <div id="about" className="scroll-smooth p-10 md:px-15 py-[60px] bg-gradient-to-br from-sky-950 to-black  text-slate-200">
             <section className="lg:flex gap-10 ">
                 <div className=" lg:fixed">
                     <Header />
                 </div>
-                <div className="flex flex-col gap-5 font-raleway lg:ml-[50%] xl:ml-[40%] text-xl leading-10 mt-16 lg:mt-[22px] max-w-[700PX]">
+                <div className="flex flex-col gap-5 font-raleway lg:ml-[50%] xl:ml-[40%] text-xl leading-10 mt-16 lg:mt-[22px] max-w--600PX]">
                     <Main />
                 </div>
             </section>
@@ -73,7 +73,7 @@ function App() {
                                 e.preventDefault();
                                 prevPage(e);
                             }}
-                            className="hover:outline-amber-700 transition outline rounded-md px-2 py-1 text-xl"
+                            className="hover:outline-amber-600 transition outline rounded-md px-2 py-1 text-xl"
                             disabled={currentPage === 1}
                         >
                             <a href="#projects">Prev</a>
@@ -85,14 +85,14 @@ function App() {
                                         e.preventDefault();
                                         changeCurrentPage(index + 1);
                                     }}
-                                    className={`hover:text-amber-700 transition ${
+                                    className={`hover:text-amber-600 transition ${
                                         number === currentPage
-                                            ? "text-amber-700"
+                                            ? "text-amber-600"
                                             : null
                                     } `}
                                     key={index}
                                 >
-                                    <a href="#projects">{number}</a>{" "}
+                                    <a className="text-xl font-bold" href="#projects">{number}</a>{" "}
                                 </li>
                             );
                         })}
@@ -103,7 +103,7 @@ function App() {
                                     nextPage(e);
                                 }
                             }}
-                            className="hover:outline-amber-700 transition outline rounded-md px-2 py-1 text-xl"
+                            className="hover:outline-amber-600 transition outline rounded-md px-2 py-1 text-xl"
                             disabled={currentPage === nPages}
                         >
                             <a href="#projects">next</a>
