@@ -113,6 +113,14 @@ const myProjects = [
     },
     {
         id: nanoid(),
+        name: "Time Tracking dashboard",
+        src: "time tracking screenshot.png",
+        href: "https://rainbow-mooncake-0bc022.netlify.app/",
+        githubrepo: "https://github.com/Mahdii-Kariimiian/time-tracking-dashboard-main",
+        tech: ["HTML", "CSS", "JavaScript"],
+    },
+    {
+        id: nanoid(),
         name: "Age Calculator",
         src: "calculate age.png",
         href: "https://fanciful-sherbet-7f2071.netlify.app/",
