@@ -48,7 +48,8 @@ function App() {
     return (
         <div
             id="about"
-            className="scroll-smooth p-10 md:px-15 py-[60px] bg-gradient-to-br from-sky-950 to-black  text-slate-200"
+            className="scroll-smooth p-10 md:px-15 py-[60px] bg-gradient-to-bl from-sky-950  via-black via-30% to-sky-950 text-white  
+            "
         >
             <section className="lg:flex gap-10 ">
                 <div className=" lg:fixed">
