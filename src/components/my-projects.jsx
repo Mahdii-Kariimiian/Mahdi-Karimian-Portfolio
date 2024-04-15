@@ -31,8 +31,17 @@ const myProjects = [
         src: "Tailwind screenshot.png",
         href: "https://weekawaytailwind.netlify.app/",
         githubrepo:
-            "https://github.com/Mahdii-Kariimiian/Beach-Vacation-Booking-Website/",
+            "https://github.com/Mahdii-Kariimiian/weather-app/",
         tech: ["HTML", "JavaScript", "React", "Tailwind"],
+    },
+    {
+        id: nanoid(),
+        name: "Weather App",
+        src: "weather screenshot",
+        href: "https://glowing-stardust-119fb2.netlify.app/",
+        githubrepo:
+            "https://github.com/Mahdii-Kariimiian/rest-countries-api-with-color-theme-switcher-master",
+        tech: ["HTML", "JavaScript", "React"],
     },
     {
         id: nanoid(),
