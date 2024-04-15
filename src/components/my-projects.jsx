@@ -37,7 +37,7 @@ const myProjects = [
     {
         id: nanoid(),
         name: "Weather App",
-        src: "weather screenshot",
+        src: "weather screenshot.png",
         href: "https://glowing-stardust-119fb2.netlify.app/",
         githubrepo:
             "https://github.com/Mahdii-Kariimiian/rest-countries-api-with-color-theme-switcher-master",
