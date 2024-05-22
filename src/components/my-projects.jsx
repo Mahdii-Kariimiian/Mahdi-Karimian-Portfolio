@@ -3,6 +3,14 @@ import { nanoid } from "nanoid";
 const myProjects = [
     {
         id: nanoid(),
+        name: "AI Horizon Event",
+        src: "aihorizon screenshot.png",
+        href: "https://aihorizon.netlify.app/",
+        githubrepo: "https://github.com/Mahdii-Kariimiian/Confrence-Schedule",
+        tech: ["HTML", "JavaScript", "React", "Tailwind"],
+    },
+    {
+        id: nanoid(),
         name: "Nike Land page",
         src: "Nike screenshot.png",
         href: "https://nike-landpage1.netlify.app/",
