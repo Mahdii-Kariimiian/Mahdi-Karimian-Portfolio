@@ -43,7 +43,7 @@ const myProjects = [
     },
     {
         id: nanoid(),
-        name: "Beach Vacation Booking Website",
+        name: "Booking Website",
         src: "Tailwind screenshot.png",
         href: "https://weekawaytailwind.netlify.app/",
         githubrepo:
@@ -102,7 +102,7 @@ const myProjects = [
     },
     {
         id: nanoid(),
-        name: "Currency Exchange App",
+        name: "Currency Exchange",
         src: "currency exchange.png",
         href: "https://currencyy-exchange.netlify.app//",
         githubrepo: "https://github.com/Mahdii-Kariimiian/Currency-exchange",
@@ -119,7 +119,7 @@ const myProjects = [
     },
     {
         id: nanoid(),
-        name: "Advice Generator App",
+        name: "Advice Generator",
         src: "Advice generator app.png",
         href: "https://subtle-mooncake-56826b.netlify.app/",
         githubrepo:
@@ -175,7 +175,7 @@ const myProjects = [
 
     {
         id: nanoid(),
-        name: "Interactive Pricing Component",
+        name: "Interactive Pricing",
         src: "Interactive pricing.png",
         href: "https://interactive-pricing-component-kappa-seven.vercel.app/",
         githubrepo:
