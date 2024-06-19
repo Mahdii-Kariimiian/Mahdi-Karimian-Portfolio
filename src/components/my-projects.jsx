@@ -3,6 +3,14 @@ import { nanoid } from "nanoid";
 const myProjects = [
     {
         id: nanoid(),
+        name: "Netflix Clone",
+        src: "netflix screenshot2.png",
+        href: "https://boisterous-cobbler-0411cc.netlify.app/",
+        githubrepo: "https://github.com/Mahdii-Kariimiian/Netflix-clone",
+        tech: ["HTML", "JavaScript", "React", "Tailwind"],
+    },
+    {
+        id: nanoid(),
         name: "Alibaba Clone",
         src: "alibaba-screenshot1.png",
         href: "https://alibaba-clone-mu.vercel.app/",
