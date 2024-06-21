@@ -16,7 +16,7 @@ function Projects({ href, name, src, githubrepo, techs }) {
                 src={`../../img/screenshots/${src}`}
                 alt={name}
             />
-            <div className="xl:absolute max-md:absolute max-sm:static lg:font-bold flex gap-2 flex-wrap right-6 top-6">
+            <div className="xl:absolute max-md:absolute max-sm:static lg:font-bold flex gap-2 flex-wrap right-4 p-2 top-0">
                 {usedTechnologies}
             </div>
             <div className="flex sm:flex-row gap-8 sm:justify-around flex-wrap p-2 justify-center">
