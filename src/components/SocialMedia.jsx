@@ -23,9 +23,9 @@ function SocialMedia() {
 
             <li>
                 <a
-                    title="My CV"
+                    title="My Resume"
                     target="_blank"
-                    href="https://drive.google.com/file/d/1i4lRuDld89dajyQoCZxNikSaGM5wY7RZ/view?usp=drive_link"
+                    href="https://drive.google.com/file/d/1UBIfLaoelEfSEO7XTSCx0NTZ2yGK75Jp/view?usp=drive_link"
                 >
                     <i className="hover:text-amber-600 transition fa-solid fa-file"></i>
                 </a>
