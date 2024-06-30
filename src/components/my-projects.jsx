@@ -3,11 +3,19 @@ import { nanoid } from "nanoid";
 const myProjects = [
     {
         id: nanoid(),
+        name: "IP Tracker",
+        src: "IP tracker screenshot.png",
+        href: "https://ip-address-tracker-vug6.vercel.app/",
+        githubrepo: "https://github.com/Mahdii-Kariimiian/IP-Address-Tracker",
+        tech: ["JSX", "TypeScript", "React", "Tailwind"],
+    },
+    {
+        id: nanoid(),
         name: "Netflix Clone",
         src: "netflix screenshot2.png",
         href: "https://boisterous-cobbler-0411cc.netlify.app/",
         githubrepo: "https://github.com/Mahdii-Kariimiian/Netflix-clone",
-        tech: ["HTML", "JavaScript", "React", "Tailwind"],
+        tech: ["JSX", "JavaScript", "React", "Tailwind"],
     },
     {
         id: nanoid(),
@@ -15,7 +23,7 @@ const myProjects = [
         src: "alibaba-screenshot1.png",
         href: "https://alibaba-clone-mu.vercel.app/",
         githubrepo: "https://github.com/Mahdii-Kariimiian/Alibaba-Clone",
-        tech: ["HTML", "JavaScript", "React", "Tailwind"],
+        tech: ["JSX", "JavaScript", "React", "Tailwind"],
     },
     {
         id: nanoid(),
@@ -23,7 +31,7 @@ const myProjects = [
         src: "aihorizon screenshot.png",
         href: "https://aihorizon.netlify.app/",
         githubrepo: "https://github.com/Mahdii-Kariimiian/Confrence-Schedule",
-        tech: ["HTML", "JavaScript", "React", "Tailwind"],
+        tech: ["JSX", "JavaScript", "React", "Tailwind"],
     },
     {
         id: nanoid(),
@@ -31,7 +39,7 @@ const myProjects = [
         src: "Nike screenshot.png",
         href: "https://nike-landpage1.netlify.app/",
         githubrepo: "https://github.com/Mahdii-Kariimiian/Nike-Landpage//",
-        tech: ["HTML", "JavaScript", "React", "Tailwind"],
+        tech: ["JSX", "JavaScript", "React", "Tailwind"],
     },
     {
         id: nanoid(),
@@ -39,7 +47,7 @@ const myProjects = [
         src: "e-commerce screenshot.png",
         href: "https://codecart.netlify.app/",
         githubrepo: "https://github.com/Mahdii-Kariimiian/E-commerce-react",
-        tech: ["HTML", "JavaScript", "React", "Tailwind"],
+        tech: ["JSX", "JavaScript", "React", "Tailwind"],
     },
     {
         id: nanoid(),
@@ -47,7 +55,7 @@ const myProjects = [
         src: "expenses react screen-shot 1.png",
         href: "https://yourexpenses.netlify.app//",
         githubrepo: "https://github.com/Mahdii-Kariimiian/Expenses-React/",
-        tech: ["HTML", "JavaScript", "React", "Tailwind"],
+        tech: ["JSX", "JavaScript", "React", "Tailwind"],
     },
     {
         id: nanoid(),
@@ -56,7 +64,7 @@ const myProjects = [
         href: "https://weekawaytailwind.netlify.app/",
         githubrepo:
             "https://github.com/Mahdii-Kariimiian/Beach-Vacation-Booking-Website",
-        tech: ["HTML", "JavaScript", "React", "Tailwind"],
+        tech: ["JSX", "JavaScript", "React", "Tailwind"],
     },
     {
         id: nanoid(),
@@ -65,7 +73,7 @@ const myProjects = [
         href: "https://glowing-stardust-119fb2.netlify.app/",
         githubrepo:
             "https://github.com/Mahdii-Kariimiian/weather-app/",
-        tech: ["HTML", "JavaScript", "React"],
+        tech: ["JSX", "JavaScript", "React"],
     },
     {
         id: nanoid(),
@@ -74,7 +82,7 @@ const myProjects = [
         href: "https://whereintheworldd.netlify.app/",
         githubrepo:
             "https://github.com/Mahdii-Kariimiian/rest-countries-api-with-color-theme-switcher-master",
-        tech: ["HTML", "JavaScript", "React", "Tailwind"],
+        tech: ["JSX", "JavaScript", "React", "Tailwind"],
     },
     {
         id: nanoid(),
@@ -82,7 +90,7 @@ const myProjects = [
         src: "event reminder screenshot 1.png",
         href: "https://eventreminder.netlify.app/",
         githubrepo: "https://github.com/Mahdii-Kariimiian/Event-Reminder",
-        tech: ["HTML", "CSS", "JavaScript", "React"],
+        tech: ["JSX", "CSS", "JavaScript", "React"],
     },
     {
         id: nanoid(),
@@ -90,7 +98,7 @@ const myProjects = [
         src: "picktuer react app.png",
         href: "https://luminous-horse-6bc308.netlify.app/",
         githubrepo: "https://github.com/Mahdii-Kariimiian/Note-Application",
-        tech: ["HTML", "CSS", "JavaScript", "React"],
+        tech: ["JSX", "CSS", "JavaScript", "React"],
     },
     {
         id: nanoid(),
@@ -98,7 +106,7 @@ const myProjects = [
         src: "Screenshot 1 Note App.png",
         href: "https://beamish-mandazi-813ee0.netlify.app",
         githubrepo: "https://github.com/Mahdii-Kariimiian/snapshot-React",
-        tech: ["HTML", "CSS", "JavaScript", "React"],
+        tech: ["JSX", "CSS", "JavaScript", "React"],
     },
     {
         id: nanoid(),
@@ -106,7 +114,7 @@ const myProjects = [
         src: "Expences Screenshot.png",
         href: "https://your-expence-app.netlify.app//",
         githubrepo: "https://github.com/Mahdii-Kariimiian/your-expense-app",
-        tech: ["HTML", "CSS", "JavaScript", "React"],
+        tech: ["JSX", "CSS", "JavaScript", "React"],
     },
     {
         id: nanoid(),
@@ -114,7 +122,7 @@ const myProjects = [
         src: "currency exchange.png",
         href: "https://currencyy-exchange.netlify.app//",
         githubrepo: "https://github.com/Mahdii-Kariimiian/Currency-exchange",
-        tech: ["HTML", "CSS", "JavaScript", "React"],
+        tech: ["JSX", "CSS", "JavaScript", "React"],
     },
     {
         id: nanoid(),
