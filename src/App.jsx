@@ -39,7 +39,7 @@ function App() {
                 name={project.name}
                 src={project.src}
                 href={project.href}
-                githubrepo={project.githubrepo}
+                githubRepo={project.githubRepo}
                 techs={project.tech}
             />
         );

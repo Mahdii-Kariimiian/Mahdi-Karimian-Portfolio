@@ -1,4 +1,4 @@
-function Projects({ href, name, src, githubrepo, techs }) {
+function Projects({ href, name, src, githubRepo, techs }) {
     const usedTechnologies = techs
         ? techs.map((tech, index) => (
               <div
@@ -24,7 +24,7 @@ function Projects({ href, name, src, githubrepo, techs }) {
                     <a href={href}>{name}</a>
                 </h3>
                 <div className="cursor-pointer">
-                    <a href={githubrepo}>
+                    <a href={githubRepo}>
                         <button className="hover:outline-amber-700 transition text-lg whitespace-nowrap outline outline-white p-2 rounded-md">
                             Github Repo
                         </button>
