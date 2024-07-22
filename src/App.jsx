@@ -4,6 +4,8 @@ import Projects from "./components/Projects.jsx";
 import Main from "./components/Main.jsx";
 import myProjects from "./components/my-projects.jsx";
 import Contact from "./components/Contact.jsx";
+import { MdKeyboardArrowDown } from "react-icons/md";
+import "./app.css";
 
 function App() {
     const [currentPage, setCurrentPage] = useState(1);
@@ -48,9 +50,41 @@ function App() {
     return (
         <div
             id="about"
-            className="scroll-smooth p-10 md:px-15 py-[60px] bg-gradient-to-bl from-sky-950  via-black via-30% to-sky-950 text-white  
+            className="scroll-smooth p-10 md:px-15 py-[60px] text-white  
             "
         >
+            <div class="background -z-10">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
             <section className="lg:flex gap-10 ">
                 <div className=" lg:fixed">
                     <Header />
@@ -61,9 +95,12 @@ function App() {
             </section>
 
             <section className="mt-[7rem] lg:mt-[10px] mb-[3rem] lg:ml-[50%] xl:ml-[35%]">
+                
+                     <MdKeyboardArrowDown className="animate-pulse max-lg:hidden text-5xl mt-12 m-auto"/>
+                
                 <h2
                     id="projects"
-                    className=" mt-[7rem] animate-pulse mb-[2rem]  text-4xl font-cabin"
+                    className=" mt-[7rem]  mb-[2rem]  text-4xl font-cabin"
                 >
                     My Projects
                 </h2>
