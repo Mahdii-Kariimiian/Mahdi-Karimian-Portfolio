@@ -25,7 +25,7 @@ function SocialMedia() {
                 <a
                     title="My Resume"
                     target="_blank"
-                    href="https://drive.google.com/file/d/1UBIfLaoelEfSEO7XTSCx0NTZ2yGK75Jp/view?usp=drive_link"
+                    href="https://drive.google.com/file/d/18NQdaXavKppjgXtr9shCPE02iZPeRPn9/view?usp=drive_link"
                 >
                     <i className="hover:text-amber-600 transition fa-solid fa-file"></i>
                 </a>
