@@ -95,9 +95,8 @@ function App() {
             </section>
 
             <section className="mt-[7rem] lg:mt-[10px] mb-[3rem] lg:ml-[50%] xl:ml-[35%]">
-                
-                     <MdKeyboardArrowDown className="animate-pulse max-lg:hidden text-5xl mt-12 m-auto"/>
-                
+                <MdKeyboardArrowDown className="animate-pulse max-lg:hidden text-5xl mt-12 m-auto" />
+
                 <h2
                     id="projects"
                     className=" mt-[7rem]  mb-[2rem]  text-4xl font-cabin"

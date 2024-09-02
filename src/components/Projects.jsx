@@ -9,6 +9,7 @@ function Projects({ href, name, src, githubRepo, techs }) {
               </div>
           ))
         : null;
+
     return (
         <div className="max-w-[600px] relative font-raleway transition ring-4 ring-white flex flex-col items-center space-y-4 text-center pb-5 min-w-[250px] outline-2 outline-transparent rounded-md mx-5">
             <img
@@ -19,7 +20,8 @@ function Projects({ href, name, src, githubRepo, techs }) {
             <div className="xl:absolute max-md:absolute max-sm:static lg:font-bold flex gap-2 flex-wrap right-4 p-2 top-0">
                 {usedTechnologies}
             </div>
-            <div className="flex sm:flex-row gap-8 sm:justify-around flex-wrap p-2 justify-center">
+
+            <div className="flex sm:flex-row gap-8 sm:justify-around flex-wrap p-2 justify-center cursor-pointer">
                 <h3 className="hover:outline-amber-700 transition text-lg whitespace-nowrap outline outline-white p-2 rounded-md max-w-[max-content]">
                     <a href={href}>{name}</a>
                 </h3>
